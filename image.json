@@ -1,0 +1,116 @@
+[
+    {
+        "name": "бумага",
+        "url": "images/бумага.png",
+        "correct": true,
+        "description": "фото"
+    },
+    {
+        "name": "зубной порошок",
+        "url": "images/зубной порошок.png",
+        "correct": true,
+        "description": "фото"
+    },
+    {
+        "name": "йод и бинт",
+        "url": "images/йод и бинт.png",
+        "correct": true,
+        "description": "фото"
+    },
+    {
+        "name": "консервная банка",
+        "url": "images/консервная банка.png",
+        "correct": true,
+        "description": "фото"
+    },
+    {
+        "name": "мыло",
+        "url": "images/мыло.png",
+        "correct": true,
+        "description": "фото"
+    },
+    {
+        "name": "носки",
+        "url": "images/носки.png",
+        "correct": true,
+        "description": "фото"
+    },
+    {
+        "name": "открытки",
+        "url": "images/открытки.png",
+        "correct": true,
+        "description": "фото"
+    },
+    {
+        "name": "платок с оленем",
+        "url": "images/платок с оленем.png",
+        "correct": true,
+        "description": "фото"
+    },
+    {
+        "name": "сахар",
+        "url": "images/сахар.png",
+        "correct": true,
+        "description": "фото"
+    },
+    {
+        "name": "свечка",
+        "url": "images/свечка.png",
+        "correct": true,
+        "description": "фото"
+    },
+    {
+        "name": "полотенце",
+        "url": "images/полотенце.png",
+        "correct": true,
+        "description": "фото"
+    },
+    {
+        "name": "сухари",
+        "url": "images/сухари.png",
+        "correct": true,
+        "description": "фото"
+    },
+    {
+        "name": "фляжка",
+        "url": "images/фляжка.png",
+        "correct": true,
+        "description": "фото"
+    },
+    {
+        "name": "галстук",
+        "url": "images/галстук.png",
+        "correct": false,
+        "description": "фото"
+    },
+    {
+        "name": "запанки",
+        "url": "images/запанки.png",
+        "correct": false,
+        "description": "фото"
+    },
+    {
+        "name": "кисет",
+        "url": "images/кисет.png",
+        "correct": true,
+        "description": "фото"
+    },
+    {
+        "name": "махорка",
+        "url": "images/махорка.png",
+        "correct": true,
+        "description": "фото"
+    },
+    {
+        "name": "портсигар",
+        "url": "images/портсигар.png",
+        "correct": true,
+        "description": "фото"
+    },
+    {
+        "name": "шляпа",
+        "url": "images/шляпа.png",
+        "correct": false,
+        "description": "фото"
+    }
+]

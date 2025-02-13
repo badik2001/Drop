@@ -1,0 +1,112 @@
+body {
+    height: 100vh;
+    position: relative;
+    background-image: url(images/ящик.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-position: center center;
+}
+
+.target {
+    width: 200px;
+    height: 1px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateX(-23deg) rotateY(30deg);
+    top: 14%;
+    left: 40%;
+}
+
+.images {
+    position: relative;
+    top: 220px;
+    left: 180px;
+    width: 75%;
+    height: 80%;
+    display: flex;
+}
+
+
+.top {
+    position: absolute;
+    width: 455px;
+    height: 447px;
+    transform: rotateX(91deg) rotateZ(6deg) translateZ(168px);
+    top: 34px;
+    left: -21px;
+}
+.final-message,
+.message,
+.fighter-message{
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: green;
+}
+
+.button-reboot{
+    display: none;
+    position: absolute;
+    top: 10px;
+    font-size: 24px;
+    color: green;
+}
+
+.button-start {
+    display: block;
+    position: absolute;
+    font-size: 55px;
+    color: green;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.photo {
+    display: block;
+    position: absolute;
+    width: 10%;
+} 
+
+.photo img {
+    width: 100%; /* Изображение занимает 10% ширины контейнера */
+    height: auto; /* Высота автоматически подстраивается, чтобы сохранить пропорции */
+    transition: transform 0.3s; /* Плавный переход для трансформации */
+}
+
+.photo:hover img {
+    transform: scale(1.2); /* Увеличение изображения на 20% */
+}
+
+
+.closed-box{
+    height: 100vh;
+    position: relative;
+    background-image: url(images/закрытыйЯщик.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-bottom: -330px;
+    padding: 0px;
+    background-position: top;
+}
+
+.preview{
+    background-image: url(images/заставка.jpg);
+    background-position: bottom;
+}
+
+/* Добавьте этот стиль для скрытия фотографий в режиме preview */
+body.preview .photo {
+    display: none;
+}
